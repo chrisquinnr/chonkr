@@ -1,4 +1,4 @@
-![alt text](docs/yeetr_logo.png 'Yeetr')
+![Chonky logo](chonklogo.png 'CHONK')
 
 # CHONK
 
