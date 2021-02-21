@@ -1,0 +1,28 @@
+{
+  "name": "chonk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/index.js"
+  },
+  "author": "Chris Quinn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisquinnr/chonk.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "pngquant-bin": "^6.0.0",
+    "tmp": "^0.2.1"
+  },
+  "devDependencies": {
+    "compress-images": "^1.9.8"
+  },
+  "bin": {
+    "chonk": "./bin/index.js"
+  }
+}
