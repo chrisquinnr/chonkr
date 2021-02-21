@@ -34,4 +34,3 @@ This is a personal/side project and should probably not be used in production (t
 - 100kb is default threshold at the minute
 - compression ratios are fixed!
 - you can optionally pass a directory e.g. `chonk '../../lolcats/'
-- very much
