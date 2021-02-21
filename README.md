@@ -5,10 +5,13 @@
 ## Use
 
 ```
-npm install chonk -g
+npm install chonkr -g
 
 // from any directory
 chonk
+
+//or! use direct without install
+npx chonkr
 ```
 
 `chonk` will recursively loop through current and subdirectories to find any jpgs or pngs. It will find any above a given threshold (100kb at the moment, but configurable option coming soon) and list the files found. You can then optionally compress the files.
@@ -23,7 +26,9 @@ This is a personal/side project and should probably not be used in production (t
 
 ### Read before using
 
-- `chonk` overwrites the images!
+- only for .jpg & /png
+- `chonk` overwrites images!
 - we copy the compressed images into a temporary folder - tested on \*nix systems, not on Windows.
 - 100kb is default threshold at the minute
+- compression ratios are fixed!
 - you can optionally pass a directory e.g. `chonk '../../madproject/'
