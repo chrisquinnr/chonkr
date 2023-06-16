@@ -33,4 +33,4 @@ This is a personal/side project and should probably not be used in production (t
 - we copy the compressed images into a temporary folder - tested on \*nix systems, not on Windows.
 - 100kb is default threshold at the minute
 - compression ratios are fixed!
-- you can optionally pass a directory e.g. `chonk '../../lolcats/'
+- you can optionally pass a directory e.g. `npx chonkr '../../lolcats/'
